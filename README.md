@@ -8,10 +8,10 @@ There is a window to select image and role, then two different windows depending
 then there is a final window in which they can communicate.
 
 ***REQUIRED:
-    Python 3 \n
-    Pillow (fork of PIL library) *only one not included with python\n
-    TkInter\n
-    Socket\n
-    **Files:\n
-        An image called TestImagePython.png in your current directory.\n
+    -Python 3
+    -Pillow (fork of PIL library) *only one not included with python
+    -TkInter
+    -Socket
+    **Files:
+        An image called TestImagePython.png in your current directory.
         - You can name the image whatever you want, just update the filename in the GUI.\n
