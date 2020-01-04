@@ -9,6 +9,14 @@ There is a window to select image and role (server / client), a window depending
 
 ---
 
+![The first welcome screen](ExampleImages/IntroScreen.png "Intro screen")
+
+![The client connection setup screen](ExampleImages/ClientScreen.png "Client connection screen")
+
+![The program being used on a local computer](ExampleImages/CommExampleScreen.png "Server-Client Communication")
+
+---
+
 *** REQUIRED:
 - Python 3 
 - Pillow (fork of PIL library) *only one not included with python 
