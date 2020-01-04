@@ -1,17 +1,20 @@
-# ImageMessenger
+# Image Messenger
 
-This program ia a graphical program to take user input, encrypt the text into a picture, save it and send it over
-a socket connection where it will be decrypted by the other computer by comparing it to the same base image.
-The plaintext will then be displayed on the other user's GUI.
+Steganography is the technique of hiding text in an image. After reading more on steganography, I built this stegenographic image messenger
+to encode text into images by modifying the RGB values + or - 1 to indicate a 0 or 1. I used socket programming to connect a client and server and allow them to send images containing hidden text. The graphical user interface was made with TkInter in Python. 
 
-There is a window to select image and role, then two different windows depending on role selected to set up connection,
-then there is a final window in which they can communicate.
+With this program you can use a pre-shared library of images to hide text inside, and send them over a network. If both parties only send the modified image and keep secret the only copies of the original image, this method ensures perfect secrecy against anyone who captures the modified image. 
 
-***REQUIRED:
-    -Python 3, 
-    -Pillow (fork of PIL library) *only one not included with python, 
-    -TkInter, 
-    -Socket, 
-    **Files:
-        An image called TestImagePython.png in your current directory.
-        -You can name the image whatever you want, just update the filename in the GUI.
+There is a window to select image and role (server / client), a window depending on role selected to set up the socket connection, then there is a final window in which they can communicate.
+
+---
+
+*** REQUIRED:
+- Python 3 
+- Pillow (fork of PIL library) *only one not included with python 
+- TkInter 
+- Socket 
+
+*** Files:
+- An image called TestImagePython.png in your current directory.
+- You can name the image whatever you want, just update the filename in the GUI.
